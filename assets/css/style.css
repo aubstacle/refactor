@@ -33,12 +33,13 @@ header div {
 }
 
 header div nav {
-    list-style-type: none;
+    list-style-type: lower-greek;
 }
 
 header div nav li {
     display: inline-block;
     margin-left: 25px;
+    color: teal;
 }
 
 a {
@@ -54,10 +55,13 @@ p {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-image: url("./digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
 }
+/* I know this is weird but I couldn't find a good way to make the image fit correctly by moving it to html in the hero class, so i left the background img tag here in css file and moved the digital-marketing-meeting jpg into css
+so that the path worked */
+
 
 .float-left {
     float: left;
